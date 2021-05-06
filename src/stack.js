@@ -1,15 +1,15 @@
-var _ require('underscore');
+var _ = require('underscore');
 
 let stack = [];
 
 exports.push = function (x) {
-  stack.push(x);
+    stack.push(x);
 };
 
 exports.pop = function () {
-  return stack.pop();
-};
+    return stack.pop();
+}
 
 exports.peek = function () {
-  return stack[0];
-};
+    return stack[0];
+}
