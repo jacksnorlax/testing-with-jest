@@ -7,7 +7,7 @@ exports.push = function (x) {
 };
 
 exports.pop = function () {
-    return stack.shift();
+    return stack.pop();
 }
 
 exports.peek = function () {
