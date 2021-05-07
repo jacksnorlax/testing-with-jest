@@ -32,3 +32,9 @@ describe('Clicking "Pusha till stacken"', () => {
 		await alert.accept();
 	});
 });
+
+test('Check if page has the right title', async () => {
+    let title = await driver.getTitle();
+    expect(title).toEqual("En stack");
+
+});
